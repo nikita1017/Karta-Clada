@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-image: url(bg.jpg);
+}
+.find{
+    background-image: url("bg2.gif");
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Water Brush', cursive;
+    text-align: center;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-position: bottom;
+    color: rgba(0, 0, 0, 0);
+    font-size: 70px;
+    transition: 3s;
+}
+.find:hover{
+    background-position: top;
+}
+.game{
+    width: 400px;
+    margin: 0 auto;
+    height: 400px;
+    position: relative;
+}
+.karta{
+    width: 400px;
+
+}
+.pirate{
+    position: absolute;
+   width: 60px;
+   left: 38px;
+   top: 0px;
+   height: 60px;
+   
+}
+.hints{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 0 10px black;
+    border-radius: 26px;
+    margin-bottom: 30px;
+}
