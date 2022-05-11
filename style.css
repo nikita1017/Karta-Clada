@@ -41,6 +41,7 @@ body{
     position: absolute;
    width: 60px;
    left: 38px;
+   transition: 4s;
    top: 0px;
    height: 60px;
    
